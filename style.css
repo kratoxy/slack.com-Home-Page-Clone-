@@ -1,0 +1,164 @@
+/* Container of nav */
+.navcontainer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-top: 0;
+}
+/* Main Nav */
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+/* Main Logo */
+.logo{
+    padding-left: 50px;
+    height: 37px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.arrows{
+    color: black;
+    font-weight: bolder;
+}
+.anchors{
+    margin-left: 18px;
+    width: 680px;
+    font-weight: bolder;
+
+}
+.anchors a{
+    font-weight: 600;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    width: 100px;
+    margin-left: 18px;
+    font-family: 'Salesforce-Sans', system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.searchicon{
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    font-size: 20px;    
+    height: 20px;
+    width: 20px;
+    margin-right: 24px;
+}
+.signin{
+    font-weight: 600;
+    align-self: center;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-size: .9375rem;
+    font-family: 'Salesforce-Sans', system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+}
+.signin:hover{
+    text-decoration: underline;
+    color: black;
+}
+.navlastitems3{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: 'Salesforce-Sans', system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    display: flex;
+    width: 380px;
+    height: 77px;
+    align-self: center;
+}
+.talk{
+    text-decoration: none;
+    border: 0.5px solid purple;
+    height: 42px;
+    align-self: center;
+    margin-left: 30px;
+    width: 125px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    font-family: 'Salesforce-Sans', system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.talk:hover{
+    border: 2px solid purple;
+    text-decoration: none;
+}
+.start{
+    text-decoration: none;
+    height: 42px;
+    width: 125px;
+    align-self: center;
+    margin-left: 30px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #611f69;
+    cursor: pointer;
+    font-family: 'Salesforce-Sans', system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+.start:hover{
+    background-color: rgb(92, 0, 92);
+    text-decoration: none;
+    color: white;
+}
+.start h3{
+    color: white;
+    padding-bottom: 5px;
+}
+.getstart_hover:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.talktosale_hover:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.maincontainer{
+    margin-top: 15px;
+    height: 350px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Salesforce-Avant-Garde', system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+}
+.herotext{
+    font-weight: 650;
+    font-size: 55px;
+}
+.midtextwork{
+    color: #9703c9;
+}
+.sizeadjust{
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+    height: 55px;
+    width: 180px;   
+}
+.footerimages{
+    margin-top: 32px;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.images {
+    width: 942px;
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .img1{
+    width: 84px;
+    height: 27px;
+} */
